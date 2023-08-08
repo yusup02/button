@@ -1,0 +1,124 @@
+body {
+    background-color: grey;
+}
+
+
+
+.button {
+    /* Позиционирует изображение по центру кнопки */
+    min-width: 206px;
+width: auto;
+    /* Задайте ширину и высоту кнопки по вашему усмотрению */
+    height: 71px;
+    color: white;
+    /* Цвет текста на кнопке */
+    background-image: url("./Button.svg") ;
+    background-color: gray;
+    border: 0;
+    padding: 0;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-left: 45%;
+    margin-top: 20%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    background-size: cover;
+    background-size: 100%;
+    
+}
+
+.top {
+    width: 100%;
+    height: 21px;
+}
+
+.text {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.top>img {
+    left: 0;
+    width: 11px;
+    height: 9px;
+    padding-bottom: 3px;
+    position: absolute;
+}
+
+
+
+.boton {
+    width: 100%;
+    height: 17px;
+}
+
+.boton>img {
+    right: 5px;
+    margin-top: 4px;
+    position: absolute;
+
+
+}
+
+.rights {
+    margin-top: 4px;
+}
+
+.left {
+    margin-top: 3px;
+}
+
+p {
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+.centr {
+    width: 100%;
+    display: flex;
+    height: 33px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* Добавьте свойство flex-shrink: 1; для автоматического уменьшения ширины */
+    flex-shrink: 1;
+  }
+
+
+.button:hover .top-img {
+    left: -10px;
+    top: -10px;
+    position: absolute;
+}
+
+.button:hover .boton-img {
+    right: -10px;
+    bottom: -10px;
+    position: absolute;
+}
+
+.button:hover .left {
+    right: 10px;
+    position: relative;
+}
+
+.button:hover .rights {
+    left: 10px;
+    position: relative;
+}
+
+
+
+
+
+
+
+strict-transport-security: max-age=63072000
+1691396931.553 18328-18674/ru.mts.money.dev D/Network.Rest: {"userId":"00000000100084915106","bindings":[{"bindingId":"E43F43A579DD470EA177729B82B79B94","mnemonic":"Мой телефон","createdDate":"2023-02-03T18:21:05Z","updatedDate":"2023-06-21T17:04:40Z","isDefaultBinding":true,"bindingType":"MTS_ACCOUNT","bindingStatus":"0","currency":"643","phoneNumber":"79858258028","maskedPhoneNumber":"7985**28","bankStatus":"UNKNOWN"},{"bindingId":"0F76596094EE48B4BBD913A64D974E75","mnemonic":"Текущий","createdDate":"2023-07-21T11:54:35Z","updatedDate":"2023-07-21T11:54:35Z","isDefaultBinding":false,"bindingType":"BANK_ACCOUNT","bindingStatus":"0","currency":"784","bindingParams":{"MTS_BANK_ACCOUNT_NUMBER":"40817784200000000363","MTS_BANK_ACCOUNT_STATE":"ACTIVE","MTS_BANK_ACCOUNT_TYPE":"CURRENT_ACC"},"bankStatus":"UNKNOWN"},{"bindingId":"01D4E2835AEF47DFA513524A79737DA5","mnemonic":"Новая карта","createdDate":"2023-07-19T15:22:25Z","updatedDate":"2023-07-19T15:22:25Z","isDefaultBinding":false,"bindingType":"BOUND_CARD","bindingStatus":"0","cardId":"1855737712","maskedPan":"220028******1001","expiry":"203004","cardType":"MIR","is3DSecureBinding":true,"bankStatus":"UNKNOWN","tokenization_system":["mir_pay"]},{"bindingId":"A260E7D42747406DAF99A72224300864","mnemonic":"Карта #ЯСАМ Virtual","createdDate":"2023-03-14T12:18:46Z","updatedDate":"2023-03-14T12:19:13Z","isDefaultBinding":false,"bindingType":"GENERAL_CARD","bindingStatus":"0","currency":"643","bindingParams":{"MTS_BANK_CARD_TYPE":"VIRT_DEBIT_CARD","MTS_BANK_CARD_PAN_HASH":"6D9FBDD84AD28261C91B6DA71BABA13513310CF4","MTS_BANK_CARD_ID":"555651326014"},"cardId":"2305976812","maskedPan":"404268******4254","expiry":"202803","cardType":"VISA","is3DSecureBinding":false,"bankStatus":"UNKNOWN","tokenization_system":["masterpass"]},{"bindingId":"AC8BCFF986984DDBBFF815D85981490A","mnemonic":"Карта CASHBACK Lite","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-03-14T12:19:13Z","isDefaultBinding":false,"bindingType":"GENERAL_CARD","bindingStatus":"0","currency":"643","bindingParams":{"MTS_BANK_CARD_TYPE":"VIRT_DEBIT_CARD","MTS_BANK_CARD_PAN_HASH":"03A94E3A178D86E835FF5445F8ED516F75BB3777","MTS_BANK_CARD_ID":"474905804982"},"cardId":"1888666212","maskedPan":"536672******4640","expiry":"202510","cardType":"MASTERCARD","is3DSecureBinding":false,"bankStatus":"UNKNOWN","tokenization_system":["cardsmobile_sdk","masterpass"]},{"bindingId":"8041CEB050C34CDFA3DBAFE97C179238","mnemonic":"MTS Cashback Digital Мир","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-03-14T12:19:13Z","isDefaultBinding":false,"bindingType":"GENERAL_CARD","bindingStatus":"0","currency":"643","bindingParams":{"MTS_BANK_CARD_TYPE":"VIRT_DEBIT_CARD","MTS_BANK_CARD_PAN_HASH":"2996825A0879EFE656BA535B08F011401315226D","MTS_BANK_CARD_ID":"471876499249"},"cardId":"1784499312","maskedPan":"220028******5113","expiry":"202709","cardType":"MIR","is3DSecureBinding":false,"bankStatus":"UNKNOWN","tokenization_system":["mir_pay"]},{"bindingId":"CC982DBC8A3D41C6B13337BB7E170D1C","mnemonic":"MIR ·· 5232","createdDate":"2023-02-06T15:00:00Z","updatedDate":"2023-02-06T15:00:02Z","isDefaultBinding":false,"bindingType":"BOUND_CARD","bindingStatus":"0","cardId":"1561768912","maskedPan":"220220******5232","expiry":"202410","cardType":"MIR","is3DSecureBinding":true,"bankStatus":"UNKNOWN"},{"bindingId":"942080D3B47E44CE9FF9AA7C3B7F1936","mnemonic":"MASTERCARD ·· 7434","createdDate":"2023-02-06T14:59:29Z","updatedDate":"2023-02-06T14:59:31Z","isDefaultBinding":false,"bindingType":"BOUND_CARD","bindingStatus":"0","cardId":"1546332512","maskedPan":"553691******7434","expiry":"202909","cardType":"MASTERCARD","is3DSecureBinding":true,"bankStatus":"UNKNOWN","tokenization_system":["masterpass"]},{"bindingId":"DCB9D843DDDA41D5B5A41850C40DA473","mnemonic":"Накопительный CASHBACK","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-02-03T18:21:27Z","isDefaultBinding":false,"bindingType":"BANK_ACCOUNT","bindingStatus":"0","currency":"810","bindingParams":{"MTS_BANK_ACCOUNT_NUMBER":"40817810703003264
+1691396931.553 18328-18674/ru.mts.money.dev D/Network.Rest: S_BANK_ACCOUNT_STATE":"ACTIVE","MTS_BANK_ACCOUNT_TYPE":"SAVINGS_CASHBACK_ACC"},"bankStatus":"UNKNOWN"},{"bindingId":"4818CAC2504646E8ABEC991EB06B3DC0","mnemonic":"МТС счет","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-02-03T18:21:27Z","isDefaultBinding":false,"bindingType":"BANK_ACCOUNT","bindingStatus":"0","currency":"810","bindingParams":{"MTS_BANK_ACCOUNT_NUMBER":"40817810503002868145","MTS_BANK_ACCOUNT_STATE":"ACTIVE","MTS_BANK_ACCOUNT_TYPE":"SAVINGS_MTS_ACC"},"bankStatus":"UNKNOWN"},{"bindingId":"931030C810CA4313B7B5D1D181825032","mnemonic":"Накопительный Weekend","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-02-03T18:21:27Z","isDefaultBinding":false,"bindingType":"BANK_ACCOUNT","bindingStatus":"0","currency":"810","bindingParams":{"MTS_BANK_ACCOUNT_NUMBER":"40817810202000619972","MTS_BANK_ACCOUNT_STATE":"ACTIVE","MTS_BANK_ACCOUNT_TYPE":"SAVING_WE_ACC"},"bankStatus":"UNKNOWN"},{"bindingId":"FDD1F2E63B024B46A6C205983EED29C6","mnemonic":"MC World PayPass","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-02-03T18:21:27Z","isDefaultBinding":false,"bindingType":"GENERAL_CARD","bindingStatus":"0","currency":"643","bindingParams":{"MTS_BANK_CARD_TYPE":"DEBIT_CARD","MTS_BANK_CARD_PAN_HASH":"3C42B126BD0CA0A2637645E051809943780FEC32","MTS_BANK_CARD_ID":"425479076915"},"cardId":"1555935712","maskedPan":"524602******7510","expiry":"202703","cardType":"MASTERCARD","is3DSecureBinding":false,"bankStatus":"UNKNOWN","tokenization_system":["cardsmobile_sdk","masterpass"]},{"bindingId":"F0E7510D3E0745F09C57D4D08AE57E91","mnemonic":"Вклад","createdDate":"2023-02-03T18:21:27Z","updatedDate":"2023-02-03T18:21:27Z","isDefaultBinding":false,"bindingType":"BANK_ACCOUNT","bindingStatus":"0","currency":"810","bindingParams":{"MTS_BANK_ACCOUNT_NUMBER":"42306810103000029439","MTS_BANK_ACCOUNT_STATE":"ACTIVE","MTS_BANK_ACCOUNT_TYPE":"DEPOSIT_ACC"},"bankStatus":"UNKNOWN"},{"bindingId":"D4D056A698EA4130BB9A83BAB01AC543","mnemonic":"Мой кошелек","createdDate":"2023-02-03T18:21:06Z","updatedDate":"2023-02-03T18:21:06Z","isDefaultBinding":false,"bindingType":"EMONEY_ACCOUNT","bindingStatus":"0","balance":"33.10","currency":"643","bindingParams":{"CBR_ACCOUNT_NUMBER":"40914810810238442866"},"limitsInfo":{"balanceLimit":{"amount":"600000.00","currency":"643"}},"phoneNumber":"79858258028","maskedPhoneNumber":"7985**28","bankStatus":"UNKNOWN"}]}
+1691396931.553 18328-18674/ru.mts.money.dev D/Network.Rest: <-- END HTTP (6480-byte body)
